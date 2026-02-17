@@ -43,22 +43,25 @@ public class P2_InventoryPage {
     @FindBy(id = "add-to-cart-sauce-labs-bike-light")
     private WebElement addToCartBtn;
 
-    public void clickOnAddToCart() {
+  public void clickOnAddToCart() {
 
-        // wait until clickable
-        wait.until(ExpectedConditions.elementToBeClickable(addToCartBtn));
+       // wait until clickable
+      wait.until(ExpectedConditions.elementToBeClickable(addToCartBtn));
 
-        addToCartBtn.click();
+       addToCartBtn.click();
 
-        // wait until text changes to "Remove"
-        //wait.until(ExpectedConditions.textToBePresentInElement(addToCartBtn, "Remove"));
+       // wait until text changes to "Remove"
+       wait.until(ExpectedConditions.textToBePresentInElement(addToCartBtn, "Remove"));
+   // return addToCartBtn.getText(); // returns "Remove"
+      wait.until(ExpectedConditions.presenceOfElementLocated(
+              org.openqa.selenium.By.id("remove-sauce-labs-bike-light")
+          ));
+  }
+    
+    
+    
 
-       // return addToCartBtn.getText(); // returns "Remove"
-        wait.until(ExpectedConditions.presenceOfElementLocated(
-                org.openqa.selenium.By.id("remove-sauce-labs-bike-light")
-            ));
-    }
-
+   
     // ===== All product names =====
     @FindBy(xpath = "//div[@class='inventory_list']//div//a//div")
     private List<WebElement> listOfProductsName;
@@ -70,4 +73,54 @@ public class P2_InventoryPage {
         }
         return names;
     }
+    
+    
+    @FindBy(id = "remove-sauce-labs-bike-light")
+    private WebElement removeBtn;
+
+    public boolean isRemoveButtonDisplayed() {
+        return removeBtn.isDisplayed();
+    }
+
+    // ===== Add/Remove button text =====
+    public String getAddToCartButtonText() {
+        return addToCartBtn.getText();
+    }
+
+    // ===== Verify Bike Light product visibility =====
+    public boolean isBikeLightProductDisplayed() {
+        return bikeLightProductName.isDisplayed();
+    }
+
+    // ===== Get first product name =====
+    public String getFirstProductName() {
+        wait.until(ExpectedConditions.visibilityOfAllElements(products));
+        return products.get(0).getText();
+    }
+
+    // ===== Verify all products are visible =====
+    public boolean areAllProductsDisplayed() {
+        for (WebElement product : products) {
+            if (!product.isDisplayed()) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    // ===== Click product by name (generic) =====
+    public void clickProductByName(String productName) {
+        for (WebElement product : listOfProductsName) {
+            if (product.getText().equalsIgnoreCase(productName)) {
+                product.click();
+                break;
+            }
+        }
+    }
+
+    // ===== Get product list size (alternate) =====
+    public int getProductNamesCount() {
+        return listOfProductsName.size();
+    }
+
 }

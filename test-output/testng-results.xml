@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="13" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-17T10:59:03 IST" name="Suite" finished-at="2026-02-17T10:59:06 IST" duration-ms="3370">
+  <suite started-at="2026-02-17T11:38:02 IST" name="Suite" finished-at="2026-02-17T11:38:22 IST" duration-ms="20147">
     <groups>
     </groups>
-    <test started-at="2026-02-17T10:59:03 IST" name="SwagLabs Tests" finished-at="2026-02-17T10:59:06 IST" duration-ms="3370">
+    <test started-at="2026-02-17T11:38:02 IST" name="SwagLabs Tests" finished-at="2026-02-17T11:38:22 IST" duration-ms="20147">
       <class name="com.SwagLabsUITest.TestCases.Tc1_LoginTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0]" started-at="2026-02-17T10:59:01 IST" name="beforeSuite" finished-at="2026-02-17T10:59:03 IST" duration-ms="1674" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39]" started-at="2026-02-17T11:37:57 IST" name="beforeSuite" finished-at="2026-02-17T11:38:02 IST" duration-ms="4853" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0]" started-at="2026-02-17T10:59:03 IST" name="setup" finished-at="2026-02-17T10:59:03 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupInventory()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0]" started-at="2026-02-17T10:59:03 IST" name="setupInventory" finished-at="2026-02-17T10:59:03 IST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="setupInventory()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39]" started-at="2026-02-17T11:38:02 IST" name="setupInventory" finished-at="2026-02-17T11:38:02 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupInventory -->
-        <test-method is-config="true" signature="openApp()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0]" started-at="2026-02-17T10:59:03 IST" name="openApp" finished-at="2026-02-17T10:59:03 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39]" started-at="2026-02-17T11:38:02 IST" name="setup" finished-at="2026-02-17T11:38:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39]" started-at="2026-02-17T11:38:02 IST" name="openApp" finished-at="2026-02-17T11:38:02 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="verifyUrl()[pri:1, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0]" started-at="2026-02-17T10:59:03 IST" name="verifyUrl" finished-at="2026-02-17T10:59:03 IST" duration-ms="101" status="PASS">
+        <test-method signature="verifyUrl()[pri:1, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39]" started-at="2026-02-17T11:38:02 IST" name="verifyUrl" finished-at="2026-02-17T11:38:03 IST" duration-ms="136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUrl -->
-        <test-method is-config="true" signature="captureOnFail(org.testng.ITestResult)[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0]" started-at="2026-02-17T10:59:03 IST" name="captureOnFail" finished-at="2026-02-17T10:59:03 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="captureOnFail(org.testng.ITestResult)[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39]" started-at="2026-02-17T11:38:03 IST" name="captureOnFail" finished-at="2026-02-17T11:38:03 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyUrl status=SUCCESS method=Tc1_LoginTest.verifyUrl()[pri:1, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0] output={null}]]]>
+                <![CDATA[[TestResult name=verifyUrl status=SUCCESS method=Tc1_LoginTest.verifyUrl()[pri:1, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureOnFail -->
-        <test-method is-config="true" signature="openApp()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0]" started-at="2026-02-17T10:59:03 IST" name="openApp" finished-at="2026-02-17T10:59:03 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39]" started-at="2026-02-17T11:38:03 IST" name="openApp" finished-at="2026-02-17T11:38:03 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="VerifyTitle()[pri:2, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0]" started-at="2026-02-17T10:59:03 IST" name="VerifyTitle" finished-at="2026-02-17T10:59:03 IST" duration-ms="20" status="PASS">
+        <test-method signature="VerifyTitle()[pri:2, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39]" started-at="2026-02-17T11:38:03 IST" name="VerifyTitle" finished-at="2026-02-17T11:38:03 IST" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyTitle -->
-        <test-method is-config="true" signature="captureOnFail(org.testng.ITestResult)[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0]" started-at="2026-02-17T10:59:04 IST" name="captureOnFail" finished-at="2026-02-17T10:59:04 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="captureOnFail(org.testng.ITestResult)[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39]" started-at="2026-02-17T11:38:03 IST" name="captureOnFail" finished-at="2026-02-17T11:38:03 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyTitle status=SUCCESS method=Tc1_LoginTest.VerifyTitle()[pri:2, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0] output={null}]]]>
+                <![CDATA[[TestResult name=VerifyTitle status=SUCCESS method=Tc1_LoginTest.VerifyTitle()[pri:2, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureOnFail -->
-        <test-method is-config="true" signature="openApp()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0]" started-at="2026-02-17T10:59:04 IST" name="openApp" finished-at="2026-02-17T10:59:04 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39]" started-at="2026-02-17T11:38:03 IST" name="openApp" finished-at="2026-02-17T11:38:03 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="VerifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0]" started-at="2026-02-17T10:59:04 IST" name="VerifyLogin" data-provider="loginData" finished-at="2026-02-17T10:59:04 IST" duration-ms="369" status="PASS">
+        <test-method signature="VerifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39]" started-at="2026-02-17T11:38:03 IST" name="VerifyLogin" data-provider="loginData" finished-at="2026-02-17T11:38:03 IST" duration-ms="373" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -82,22 +82,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLogin -->
-        <test-method is-config="true" signature="captureOnFail(org.testng.ITestResult)[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0]" started-at="2026-02-17T10:59:04 IST" name="captureOnFail" finished-at="2026-02-17T10:59:04 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="captureOnFail(org.testng.ITestResult)[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39]" started-at="2026-02-17T11:38:03 IST" name="captureOnFail" finished-at="2026-02-17T11:38:03 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyLogin status=SUCCESS method=Tc1_LoginTest.VerifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0] output={null}]]]>
+                <![CDATA[[TestResult name=VerifyLogin status=SUCCESS method=Tc1_LoginTest.VerifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureOnFail -->
-        <test-method is-config="true" signature="openApp()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0]" started-at="2026-02-17T10:59:04 IST" name="openApp" finished-at="2026-02-17T10:59:04 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39]" started-at="2026-02-17T11:38:03 IST" name="openApp" finished-at="2026-02-17T11:38:03 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="VerifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0]" started-at="2026-02-17T10:59:04 IST" name="VerifyLogin" data-provider="loginData" finished-at="2026-02-17T10:59:04 IST" duration-ms="370" status="PASS">
+        <test-method signature="VerifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39]" started-at="2026-02-17T11:38:03 IST" name="VerifyLogin" data-provider="loginData" finished-at="2026-02-17T11:38:04 IST" duration-ms="319" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -118,22 +118,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLogin -->
-        <test-method is-config="true" signature="captureOnFail(org.testng.ITestResult)[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0]" started-at="2026-02-17T10:59:05 IST" name="captureOnFail" finished-at="2026-02-17T10:59:05 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="captureOnFail(org.testng.ITestResult)[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39]" started-at="2026-02-17T11:38:04 IST" name="captureOnFail" finished-at="2026-02-17T11:38:04 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyLogin status=SUCCESS method=Tc1_LoginTest.VerifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0] output={null}]]]>
+                <![CDATA[[TestResult name=VerifyLogin status=SUCCESS method=Tc1_LoginTest.VerifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureOnFail -->
-        <test-method is-config="true" signature="openApp()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0]" started-at="2026-02-17T10:59:05 IST" name="openApp" finished-at="2026-02-17T10:59:05 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39]" started-at="2026-02-17T11:38:04 IST" name="openApp" finished-at="2026-02-17T11:38:04 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="VerifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0]" started-at="2026-02-17T10:59:05 IST" name="VerifyLogin" data-provider="loginData" finished-at="2026-02-17T10:59:05 IST" duration-ms="322" status="PASS">
+        <test-method signature="VerifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39]" started-at="2026-02-17T11:38:04 IST" name="VerifyLogin" data-provider="loginData" finished-at="2026-02-17T11:38:04 IST" duration-ms="283" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -154,22 +154,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLogin -->
-        <test-method is-config="true" signature="captureOnFail(org.testng.ITestResult)[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0]" started-at="2026-02-17T10:59:05 IST" name="captureOnFail" finished-at="2026-02-17T10:59:05 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="captureOnFail(org.testng.ITestResult)[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39]" started-at="2026-02-17T11:38:04 IST" name="captureOnFail" finished-at="2026-02-17T11:38:04 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyLogin status=SUCCESS method=Tc1_LoginTest.VerifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0] output={null}]]]>
+                <![CDATA[[TestResult name=VerifyLogin status=SUCCESS method=Tc1_LoginTest.VerifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureOnFail -->
-        <test-method is-config="true" signature="openApp()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0]" started-at="2026-02-17T10:59:05 IST" name="openApp" finished-at="2026-02-17T10:59:05 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39]" started-at="2026-02-17T11:38:04 IST" name="openApp" finished-at="2026-02-17T11:38:04 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="VerifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0]" started-at="2026-02-17T10:59:05 IST" name="VerifyLogin" data-provider="loginData" finished-at="2026-02-17T10:59:05 IST" duration-ms="371" status="PASS">
+        <test-method signature="VerifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39]" started-at="2026-02-17T11:38:04 IST" name="VerifyLogin" data-provider="loginData" finished-at="2026-02-17T11:38:05 IST" duration-ms="379" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -190,82 +190,228 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLogin -->
-        <test-method is-config="true" signature="captureOnFail(org.testng.ITestResult)[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0]" started-at="2026-02-17T10:59:06 IST" name="captureOnFail" finished-at="2026-02-17T10:59:06 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="captureOnFail(org.testng.ITestResult)[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39]" started-at="2026-02-17T11:38:05 IST" name="captureOnFail" finished-at="2026-02-17T11:38:05 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyLogin status=SUCCESS method=Tc1_LoginTest.VerifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0] output={null}]]]>
+                <![CDATA[[TestResult name=VerifyLogin status=SUCCESS method=Tc1_LoginTest.VerifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureOnFail -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0]" started-at="2026-02-17T10:59:07 IST" name="afterSuite" finished-at="2026-02-17T10:59:07 IST" duration-ms="150" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39]" started-at="2026-02-17T11:38:23 IST" name="afterSuite" finished-at="2026-02-17T11:38:23 IST" duration-ms="125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.SwagLabsUITest.TestCases.Tc1_LoginTest -->
       <class name="com.SwagLabsUITest.TestCases.Tc2_InventoryTest">
-        <test-method is-config="true" signature="setupInventory()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@2dd80673]" started-at="2026-02-17T10:59:06 IST" name="setupInventory" finished-at="2026-02-17T10:59:06 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupInventory -->
-        <test-method is-config="true" signature="openApp()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@2dd80673]" started-at="2026-02-17T10:59:06 IST" name="openApp" finished-at="2026-02-17T10:59:06 IST" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApp -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@2dd80673]" started-at="2026-02-17T10:59:06 IST" name="setup" finished-at="2026-02-17T10:59:06 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyProductCount()[pri:1, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@2dd80673]" started-at="2026-02-17T10:59:06 IST" name="verifyProductCount" finished-at="2026-02-17T10:59:06 IST" duration-ms="30" status="PASS">
+        <test-method signature="verifyProductCount()[pri:1, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8]" started-at="2026-02-17T11:38:05 IST" name="verifyProductCount" finished-at="2026-02-17T11:38:05 IST" duration-ms="36" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductCount -->
-        <test-method is-config="true" signature="captureOnFail(org.testng.ITestResult)[pri:0, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@2dd80673]" started-at="2026-02-17T10:59:06 IST" name="captureOnFail" finished-at="2026-02-17T10:59:06 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8]" started-at="2026-02-17T11:38:05 IST" name="setup" finished-at="2026-02-17T11:38:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8]" started-at="2026-02-17T11:38:05 IST" name="openApp" finished-at="2026-02-17T11:38:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method is-config="true" signature="setupInventory()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8]" started-at="2026-02-17T11:38:05 IST" name="setupInventory" finished-at="2026-02-17T11:38:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupInventory -->
+        <test-method is-config="true" signature="captureOnFail(org.testng.ITestResult)[pri:0, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8]" started-at="2026-02-17T11:38:05 IST" name="captureOnFail" finished-at="2026-02-17T11:38:05 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyProductCount status=SUCCESS method=Tc2_InventoryTest.verifyProductCount()[pri:1, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@2dd80673] output={null}]]]>
+                <![CDATA[[TestResult name=verifyProductCount status=SUCCESS method=Tc2_InventoryTest.verifyProductCount()[pri:1, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureOnFail -->
-        <test-method is-config="true" signature="openApp()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@2dd80673]" started-at="2026-02-17T10:59:06 IST" name="openApp" finished-at="2026-02-17T10:59:06 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8]" started-at="2026-02-17T11:38:05 IST" name="openApp" finished-at="2026-02-17T11:38:05 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="verifyBikeLightProductName()[pri:2, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@2dd80673]" started-at="2026-02-17T10:59:06 IST" name="verifyBikeLightProductName" finished-at="2026-02-17T10:59:06 IST" duration-ms="47" status="PASS">
+        <test-method signature="verifyBikeLightProductName()[pri:2, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8]" started-at="2026-02-17T11:38:05 IST" name="verifyBikeLightProductName" finished-at="2026-02-17T11:38:05 IST" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBikeLightProductName -->
-        <test-method is-config="true" signature="captureOnFail(org.testng.ITestResult)[pri:0, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@2dd80673]" started-at="2026-02-17T10:59:06 IST" name="captureOnFail" finished-at="2026-02-17T10:59:06 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="captureOnFail(org.testng.ITestResult)[pri:0, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8]" started-at="2026-02-17T11:38:05 IST" name="captureOnFail" finished-at="2026-02-17T11:38:05 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyBikeLightProductName status=SUCCESS method=Tc2_InventoryTest.verifyBikeLightProductName()[pri:2, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@2dd80673] output={null}]]]>
+                <![CDATA[[TestResult name=verifyBikeLightProductName status=SUCCESS method=Tc2_InventoryTest.verifyBikeLightProductName()[pri:2, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureOnFail -->
-        <test-method is-config="true" signature="openApp()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@2dd80673]" started-at="2026-02-17T10:59:06 IST" name="openApp" finished-at="2026-02-17T10:59:06 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8]" started-at="2026-02-17T11:38:05 IST" name="openApp" finished-at="2026-02-17T11:38:05 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="verifyAllProductNames()[pri:4, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@2dd80673]" started-at="2026-02-17T10:59:06 IST" name="verifyAllProductNames" finished-at="2026-02-17T10:59:06 IST" duration-ms="105" status="PASS">
+        <test-method signature="verifyAllProductNames()[pri:4, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8]" started-at="2026-02-17T11:38:05 IST" name="verifyAllProductNames" finished-at="2026-02-17T11:38:05 IST" duration-ms="83" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllProductNames -->
-        <test-method is-config="true" signature="captureOnFail(org.testng.ITestResult)[pri:0, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@2dd80673]" started-at="2026-02-17T10:59:06 IST" name="captureOnFail" finished-at="2026-02-17T10:59:06 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="captureOnFail(org.testng.ITestResult)[pri:0, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8]" started-at="2026-02-17T11:38:06 IST" name="captureOnFail" finished-at="2026-02-17T11:38:06 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyAllProductNames status=SUCCESS method=Tc2_InventoryTest.verifyAllProductNames()[pri:4, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@2dd80673] output={null}]]]>
+                <![CDATA[[TestResult name=verifyAllProductNames status=SUCCESS method=Tc2_InventoryTest.verifyAllProductNames()[pri:4, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureOnFail -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8]" started-at="2026-02-17T11:38:06 IST" name="openApp" finished-at="2026-02-17T11:38:06 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="verifyAddToCartButtonTextChanges()[pri:5, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8]" started-at="2026-02-17T11:38:06 IST" name="verifyAddToCartButtonTextChanges" finished-at="2026-02-17T11:38:21 IST" depends-on-methods="com.SwagLabsUITest.TestCases.Tc2_InventoryTest.verifyAllProductNames" duration-ms="15274" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to have text "Remove". Current text: "Add to cart".
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.75, chrome: {chromedriverVersion: 145.0.7632.76 (ee36f024f43a..., userDataDir: C:\Users\ANAND~1.KUM\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50493}, goog:processID: 11572, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50493/devtoo..., se:cdpVersion: 145.0.7632.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac856696321ca0e7b98310443014467b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to have text "Remove". Current text: "Add to cart".
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.75, chrome: {chromedriverVersion: 145.0.7632.76 (ee36f024f43a..., userDataDir: C:\Users\ANAND~1.KUM\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50493}, goog:processID: 11572, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50493/devtoo..., se:cdpVersion: 145.0.7632.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac856696321ca0e7b98310443014467b
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at com.SwagLabsUITest.Pages.P2_InventoryPage.clickOnAddToCart(P2_InventoryPage.java:54)
+at com.SwagLabsUITest.TestCases.Tc2_InventoryTest.verifyAddToCartButtonTextChanges(Tc2_InventoryTest.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCartButtonTextChanges -->
+        <test-method is-config="true" signature="captureOnFail(org.testng.ITestResult)[pri:0, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8]" started-at="2026-02-17T11:38:21 IST" name="captureOnFail" finished-at="2026-02-17T11:38:21 IST" duration-ms="254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddToCartButtonTextChanges status=FAILURE method=Tc2_InventoryTest.verifyAddToCartButtonTextChanges()[pri:5, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureOnFail -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8]" started-at="2026-02-17T11:38:21 IST" name="openApp" finished-at="2026-02-17T11:38:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="verifyBikeLightProductIsDisplayed()[pri:6, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8]" started-at="2026-02-17T11:38:21 IST" name="verifyBikeLightProductIsDisplayed" finished-at="2026-02-17T11:38:21 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBikeLightProductIsDisplayed -->
+        <test-method is-config="true" signature="captureOnFail(org.testng.ITestResult)[pri:0, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8]" started-at="2026-02-17T11:38:21 IST" name="captureOnFail" finished-at="2026-02-17T11:38:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBikeLightProductIsDisplayed status=SUCCESS method=Tc2_InventoryTest.verifyBikeLightProductIsDisplayed()[pri:6, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureOnFail -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8]" started-at="2026-02-17T11:38:21 IST" name="openApp" finished-at="2026-02-17T11:38:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="verifyAllProductsAreDisplayed()[pri:7, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8]" started-at="2026-02-17T11:38:21 IST" name="verifyAllProductsAreDisplayed" finished-at="2026-02-17T11:38:21 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllProductsAreDisplayed -->
+        <test-method is-config="true" signature="captureOnFail(org.testng.ITestResult)[pri:0, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8]" started-at="2026-02-17T11:38:22 IST" name="captureOnFail" finished-at="2026-02-17T11:38:22 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllProductsAreDisplayed status=SUCCESS method=Tc2_InventoryTest.verifyAllProductsAreDisplayed()[pri:7, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureOnFail -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8]" started-at="2026-02-17T11:38:22 IST" name="openApp" finished-at="2026-02-17T11:38:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="verifyFirstProductNameIsNotEmpty()[pri:8, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8]" started-at="2026-02-17T11:38:22 IST" name="verifyFirstProductNameIsNotEmpty" finished-at="2026-02-17T11:38:22 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFirstProductNameIsNotEmpty -->
+        <test-method is-config="true" signature="captureOnFail(org.testng.ITestResult)[pri:0, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8]" started-at="2026-02-17T11:38:22 IST" name="captureOnFail" finished-at="2026-02-17T11:38:22 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFirstProductNameIsNotEmpty status=SUCCESS method=Tc2_InventoryTest.verifyFirstProductNameIsNotEmpty()[pri:8, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureOnFail -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8]" started-at="2026-02-17T11:38:22 IST" name="openApp" finished-at="2026-02-17T11:38:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="verifyProductCountMatchesProductNameList()[pri:9, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8]" started-at="2026-02-17T11:38:22 IST" name="verifyProductCountMatchesProductNameList" finished-at="2026-02-17T11:38:22 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductCountMatchesProductNameList -->
+        <test-method is-config="true" signature="captureOnFail(org.testng.ITestResult)[pri:0, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8]" started-at="2026-02-17T11:38:22 IST" name="captureOnFail" finished-at="2026-02-17T11:38:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductCountMatchesProductNameList status=SUCCESS method=Tc2_InventoryTest.verifyProductCountMatchesProductNameList()[pri:9, instance:com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8] output={null}]]]>
               </value>
             </param>
           </params>

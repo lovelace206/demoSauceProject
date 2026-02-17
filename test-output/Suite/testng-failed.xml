@@ -8,13 +8,14 @@
     <classes>
       <class name="com.SwagLabsUITest.TestCases.Tc2_InventoryTest">
         <methods>
+          <include name="verifyAllProductNames"/>
           <include name="beforeSuite"/>
           <include name="afterSuite"/>
           <include name="setup"/>
           <include name="setupInventory"/>
+          <include name="verifyAddToCartButtonTextChanges"/>
           <include name="openApp"/>
           <include name="captureOnFail"/>
-          <include name="verifyAddToCart"/>
         </methods>
       </class> <!-- com.SwagLabsUITest.TestCases.Tc2_InventoryTest -->
     </classes>

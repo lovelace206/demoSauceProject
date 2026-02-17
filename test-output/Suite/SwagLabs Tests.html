@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>SwagLabs Tests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>13/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Feb 17 10:59:03 IST 2026</td>
+<td>Started on:</td><td>Tue Feb 17 11:38:02 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>3 seconds (3370 ms)</td>
+<tr><td>Total time:</td><td>20 seconds (20147 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,70 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.SwagLabsUITest.TestCases.Tc2_InventoryTest.verifyAddToCartButtonTextChanges()'><b>verifyAddToCartButtonTextChanges</b><br>Test class: com.SwagLabsUITest.TestCases.Tc2_InventoryTest</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to have text &quot;Remove&quot;. Current text: &quot;Add to cart&quot;.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.75, chrome: {chromedriverVersion: 145.0.7632.76 (ee36f024f43a..., userDataDir: C:\Users\ANAND~1.KUM\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50493}, goog:processID: 11572, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50493/devtoo..., se:cdpVersion: 145.0.7632.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac856696321ca0e7b98310443014467b
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.SwagLabsUITest.Pages.P2_InventoryPage.clickOnAddToCart(P2_InventoryPage.java:54)
+	at com.SwagLabsUITest.TestCases.Tc2_InventoryTest.verifyAddToCartButtonTextChanges(Tc2_InventoryTest.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace285058000", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace285058000'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to have text &quot;Remove&quot;. Current text: &quot;Add to cart&quot;.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.75, chrome: {chromedriverVersion: 145.0.7632.76 (ee36f024f43a..., userDataDir: C:\Users\ANAND~1.KUM\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50493}, goog:processID: 11572, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50493/devtoo..., se:cdpVersion: 145.0.7632.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac856696321ca0e7b98310443014467b
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.SwagLabsUITest.Pages.P2_InventoryPage.clickOnAddToCart(P2_InventoryPage.java:54)
+	at com.SwagLabsUITest.TestCases.Tc2_InventoryTest.verifyAddToCartButtonTextChanges(Tc2_InventoryTest.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>15</td>
+<td>com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,50 +140,70 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.SwagLabsUITest.TestCases.Tc1_LoginTest.VerifyTitle()'><b>VerifyTitle</b><br>Test class: com.SwagLabsUITest.TestCases.Tc1_LoginTest</td>
+<td title='com.SwagLabsUITest.TestCases.Tc2_InventoryTest.verifyBikeLightProductName()'><b>verifyBikeLightProductName</b><br>Test class: com.SwagLabsUITest.TestCases.Tc2_InventoryTest</td>
 <td></td>
 <td>0</td>
-<td>com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0</td></tr>
-<tr>
-<td title='com.SwagLabsUITest.TestCases.Tc1_LoginTest.VerifyLogin()'><b>VerifyLogin</b><br>Test class: com.SwagLabsUITest.TestCases.Tc1_LoginTest<br>Parameters: anand, secret_sauce, invalid</td>
-<td></td>
-<td>0</td>
-<td>com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0</td></tr>
-<tr>
-<td title='com.SwagLabsUITest.TestCases.Tc2_InventoryTest.verifyProductCount()'><b>verifyProductCount</b><br>Test class: com.SwagLabsUITest.TestCases.Tc2_InventoryTest</td>
-<td></td>
-<td>0</td>
-<td>com.SwagLabsUITest.TestCases.Tc2_InventoryTest@2dd80673</td></tr>
-<tr>
-<td title='com.SwagLabsUITest.TestCases.Tc1_LoginTest.verifyUrl()'><b>verifyUrl</b><br>Test class: com.SwagLabsUITest.TestCases.Tc1_LoginTest</td>
-<td></td>
-<td>0</td>
-<td>com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0</td></tr>
+<td>com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8</td></tr>
 <tr>
 <td title='com.SwagLabsUITest.TestCases.Tc1_LoginTest.VerifyLogin()'><b>VerifyLogin</b><br>Test class: com.SwagLabsUITest.TestCases.Tc1_LoginTest<br>Parameters: , , invalid</td>
 <td></td>
 <td>0</td>
-<td>com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0</td></tr>
+<td>com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39</td></tr>
 <tr>
-<td title='com.SwagLabsUITest.TestCases.Tc2_InventoryTest.verifyBikeLightProductName()'><b>verifyBikeLightProductName</b><br>Test class: com.SwagLabsUITest.TestCases.Tc2_InventoryTest</td>
+<td title='com.SwagLabsUITest.TestCases.Tc2_InventoryTest.verifyProductCountMatchesProductNameList()'><b>verifyProductCountMatchesProductNameList</b><br>Test class: com.SwagLabsUITest.TestCases.Tc2_InventoryTest</td>
 <td></td>
 <td>0</td>
-<td>com.SwagLabsUITest.TestCases.Tc2_InventoryTest@2dd80673</td></tr>
+<td>com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8</td></tr>
+<tr>
+<td title='com.SwagLabsUITest.TestCases.Tc1_LoginTest.VerifyLogin()'><b>VerifyLogin</b><br>Test class: com.SwagLabsUITest.TestCases.Tc1_LoginTest<br>Parameters: anand, secret_sauce, invalid</td>
+<td></td>
+<td>0</td>
+<td>com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39</td></tr>
 <tr>
 <td title='com.SwagLabsUITest.TestCases.Tc2_InventoryTest.verifyAllProductNames()'><b>verifyAllProductNames</b><br>Test class: com.SwagLabsUITest.TestCases.Tc2_InventoryTest</td>
 <td></td>
 <td>0</td>
-<td>com.SwagLabsUITest.TestCases.Tc2_InventoryTest@2dd80673</td></tr>
+<td>com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8</td></tr>
+<tr>
+<td title='com.SwagLabsUITest.TestCases.Tc1_LoginTest.verifyUrl()'><b>verifyUrl</b><br>Test class: com.SwagLabsUITest.TestCases.Tc1_LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39</td></tr>
+<tr>
+<td title='com.SwagLabsUITest.TestCases.Tc2_InventoryTest.verifyBikeLightProductIsDisplayed()'><b>verifyBikeLightProductIsDisplayed</b><br>Test class: com.SwagLabsUITest.TestCases.Tc2_InventoryTest</td>
+<td></td>
+<td>0</td>
+<td>com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8</td></tr>
+<tr>
+<td title='com.SwagLabsUITest.TestCases.Tc2_InventoryTest.verifyFirstProductNameIsNotEmpty()'><b>verifyFirstProductNameIsNotEmpty</b><br>Test class: com.SwagLabsUITest.TestCases.Tc2_InventoryTest</td>
+<td></td>
+<td>0</td>
+<td>com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8</td></tr>
+<tr>
+<td title='com.SwagLabsUITest.TestCases.Tc2_InventoryTest.verifyAllProductsAreDisplayed()'><b>verifyAllProductsAreDisplayed</b><br>Test class: com.SwagLabsUITest.TestCases.Tc2_InventoryTest</td>
+<td></td>
+<td>0</td>
+<td>com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8</td></tr>
+<tr>
+<td title='com.SwagLabsUITest.TestCases.Tc1_LoginTest.VerifyTitle()'><b>VerifyTitle</b><br>Test class: com.SwagLabsUITest.TestCases.Tc1_LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39</td></tr>
 <tr>
 <td title='com.SwagLabsUITest.TestCases.Tc1_LoginTest.VerifyLogin()'><b>VerifyLogin</b><br>Test class: com.SwagLabsUITest.TestCases.Tc1_LoginTest<br>Parameters: standard_user, wrong, invalid</td>
 <td></td>
 <td>0</td>
-<td>com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0</td></tr>
+<td>com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39</td></tr>
 <tr>
 <td title='com.SwagLabsUITest.TestCases.Tc1_LoginTest.VerifyLogin()'><b>VerifyLogin</b><br>Test class: com.SwagLabsUITest.TestCases.Tc1_LoginTest<br>Parameters: standard_user, secret_sauce, valid</td>
 <td></td>
 <td>0</td>
-<td>com.SwagLabsUITest.TestCases.Tc1_LoginTest@1d470d0</td></tr>
+<td>com.SwagLabsUITest.TestCases.Tc1_LoginTest@2d1dee39</td></tr>
+<tr>
+<td title='com.SwagLabsUITest.TestCases.Tc2_InventoryTest.verifyProductCount()'><b>verifyProductCount</b><br>Test class: com.SwagLabsUITest.TestCases.Tc2_InventoryTest</td>
+<td></td>
+<td>0</td>
+<td>com.SwagLabsUITest.TestCases.Tc2_InventoryTest@4b45dcb8</td></tr>
 </table><p>
 </body>
 </html>

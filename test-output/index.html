@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods,   9 passed</span>
+                    <span class="method-stats">14 methods, 1 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SwagLabsUITest.TestCases.Tc2_InventoryTest" class="method navigator-link" hash-for-method="verifyAddToCartButtonTextChanges">verifyAddToCartButtonTextChanges</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +117,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.SwagLabsUITest.TestCases.Tc1_LoginTest" class="method navigator-link" hash-for-method="VerifyLogin(anand, secret_sauce, invalid)">VerifyLogin(anand, secret_sauce, invalid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.SwagLabsUITest.TestCases.Tc1_LoginTest" class="method navigator-link" hash-for-method="VerifyLogin(, , invalid)">VerifyLogin(, , invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.SwagLabsUITest.TestCases.Tc1_LoginTest" class="method navigator-link" hash-for-method="VerifyLogin(, , invalid)">VerifyLogin(, , invalid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.SwagLabsUITest.TestCases.Tc1_LoginTest" class="method navigator-link" hash-for-method="VerifyLogin(anand, secret_sauce, invalid)">VerifyLogin(anand, secret_sauce, invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -133,12 +147,32 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SwagLabsUITest.TestCases.Tc2_InventoryTest" class="method navigator-link" hash-for-method="verifyAllProductsAreDisplayed">verifyAllProductsAreDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SwagLabsUITest.TestCases.Tc2_InventoryTest" class="method navigator-link" hash-for-method="verifyBikeLightProductIsDisplayed">verifyBikeLightProductIsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.SwagLabsUITest.TestCases.Tc2_InventoryTest" class="method navigator-link" hash-for-method="verifyBikeLightProductName">verifyBikeLightProductName</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SwagLabsUITest.TestCases.Tc2_InventoryTest" class="method navigator-link" hash-for-method="verifyFirstProductNameIsNotEmpty">verifyFirstProductNameIsNotEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.SwagLabsUITest.TestCases.Tc2_InventoryTest" class="method navigator-link" hash-for-method="verifyProductCount">verifyProductCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SwagLabsUITest.TestCases.Tc2_InventoryTest" class="method navigator-link" hash-for-method="verifyProductCountMatchesProductNameList">verifyProductCountMatchesProductNameList</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -158,35 +192,35 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.SwagLabsUITest.TestCases.Tc2_InventoryTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyAllProductNames">
-                  </a> <!-- verifyAllProductNames -->
-                  <span class="method-name">verifyAllProductNames</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyBikeLightProductName">
-                  </a> <!-- verifyBikeLightProductName -->
-                  <span class="method-name">verifyBikeLightProductName</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyProductCount">
-                  </a> <!-- verifyProductCount -->
-                  <span class="method-name">verifyProductCount</span>
+                  <a name="verifyAddToCartButtonTextChanges">
+                  </a> <!-- verifyAddToCartButtonTextChanges -->
+                  <span class="method-name">verifyAddToCartButtonTextChanges</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to have text &quot;Remove&quot;. Current text: &quot;Add to cart&quot;.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.75, chrome: {chromedriverVersion: 145.0.7632.76 (ee36f024f43a..., userDataDir: C:\Users\ANAND~1.KUM\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50493}, goog:processID: 11572, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50493/devtoo..., se:cdpVersion: 145.0.7632.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac856696321ca0e7b98310443014467b
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.SwagLabsUITest.Pages.P2_InventoryPage.clickOnAddToCart(P2_InventoryPage.java:54)
+	at com.SwagLabsUITest.TestCases.Tc2_InventoryTest.verifyAddToCartButtonTextChanges(Tc2_InventoryTest.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -195,18 +229,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="VerifyLogin(anand, secret_sauce, invalid)">
-                  </a> <!-- VerifyLogin(anand, secret_sauce, invalid) -->
-                  <span class="method-name">VerifyLogin</span>
-                  <span class="parameters">(anand,secret_sauce,invalid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="VerifyLogin(, , invalid)">
                   </a> <!-- VerifyLogin(, , invalid) -->
                   <span class="method-name">VerifyLogin</span>
                   <span class="parameters">(,,invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLogin(anand, secret_sauce, invalid)">
+                  </a> <!-- VerifyLogin(anand, secret_sauce, invalid) -->
+                  <span class="method-name">VerifyLogin</span>
+                  <span class="parameters">(anand,secret_sauce,invalid)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -237,6 +271,63 @@
                   <a name="verifyUrl">
                   </a> <!-- verifyUrl -->
                   <span class="method-name">verifyUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.SwagLabsUITest.TestCases.Tc2_InventoryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllProductNames">
+                  </a> <!-- verifyAllProductNames -->
+                  <span class="method-name">verifyAllProductNames</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllProductsAreDisplayed">
+                  </a> <!-- verifyAllProductsAreDisplayed -->
+                  <span class="method-name">verifyAllProductsAreDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBikeLightProductIsDisplayed">
+                  </a> <!-- verifyBikeLightProductIsDisplayed -->
+                  <span class="method-name">verifyBikeLightProductIsDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBikeLightProductName">
+                  </a> <!-- verifyBikeLightProductName -->
+                  <span class="method-name">verifyBikeLightProductName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFirstProductNameIsNotEmpty">
+                  </a> <!-- verifyFirstProductNameIsNotEmpty -->
+                  <span class="method-name">verifyFirstProductNameIsNotEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductCount">
+                  </a> <!-- verifyProductCount -->
+                  <span class="method-name">verifyProductCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductCountMatchesProductNameList">
+                  </a> <!-- verifyProductCountMatchesProductNameList -->
+                  <span class="method-name">verifyProductCountMatchesProductNameList</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -297,48 +388,68 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(9);
+data.addRows(14);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'VerifyLogin')
-data.setCell(0, 2, 'com.SwagLabsUITest.TestCases.Tc1_LoginTest')
-data.setCell(0, 3, 371);
+data.setCell(0, 1, 'verifyAddToCartButtonTextChanges')
+data.setCell(0, 2, 'com.SwagLabsUITest.TestCases.Tc2_InventoryTest')
+data.setCell(0, 3, 15274);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'VerifyLogin')
 data.setCell(1, 2, 'com.SwagLabsUITest.TestCases.Tc1_LoginTest')
-data.setCell(1, 3, 370);
+data.setCell(1, 3, 379);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'VerifyLogin')
 data.setCell(2, 2, 'com.SwagLabsUITest.TestCases.Tc1_LoginTest')
-data.setCell(2, 3, 369);
+data.setCell(2, 3, 373);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'VerifyLogin')
 data.setCell(3, 2, 'com.SwagLabsUITest.TestCases.Tc1_LoginTest')
-data.setCell(3, 3, 322);
+data.setCell(3, 3, 319);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyAllProductNames')
-data.setCell(4, 2, 'com.SwagLabsUITest.TestCases.Tc2_InventoryTest')
-data.setCell(4, 3, 105);
+data.setCell(4, 1, 'VerifyLogin')
+data.setCell(4, 2, 'com.SwagLabsUITest.TestCases.Tc1_LoginTest')
+data.setCell(4, 3, 283);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyUrl')
-data.setCell(5, 2, 'com.SwagLabsUITest.TestCases.Tc1_LoginTest')
-data.setCell(5, 3, 101);
+data.setCell(5, 1, 'verifyFirstProductNameIsNotEmpty')
+data.setCell(5, 2, 'com.SwagLabsUITest.TestCases.Tc2_InventoryTest')
+data.setCell(5, 3, 241);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verifyBikeLightProductName')
-data.setCell(6, 2, 'com.SwagLabsUITest.TestCases.Tc2_InventoryTest')
-data.setCell(6, 3, 47);
+data.setCell(6, 1, 'verifyUrl')
+data.setCell(6, 2, 'com.SwagLabsUITest.TestCases.Tc1_LoginTest')
+data.setCell(6, 3, 136);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'verifyProductCount')
+data.setCell(7, 1, 'verifyAllProductNames')
 data.setCell(7, 2, 'com.SwagLabsUITest.TestCases.Tc2_InventoryTest')
-data.setCell(7, 3, 30);
+data.setCell(7, 3, 83);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'VerifyTitle')
-data.setCell(8, 2, 'com.SwagLabsUITest.TestCases.Tc1_LoginTest')
-data.setCell(8, 3, 20);
+data.setCell(8, 1, 'verifyAllProductsAreDisplayed')
+data.setCell(8, 2, 'com.SwagLabsUITest.TestCases.Tc2_InventoryTest')
+data.setCell(8, 3, 83);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyProductCount')
+data.setCell(9, 2, 'com.SwagLabsUITest.TestCases.Tc2_InventoryTest')
+data.setCell(9, 3, 36);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyBikeLightProductName')
+data.setCell(10, 2, 'com.SwagLabsUITest.TestCases.Tc2_InventoryTest')
+data.setCell(10, 3, 35);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyProductCountMatchesProductNameList')
+data.setCell(11, 2, 'com.SwagLabsUITest.TestCases.Tc2_InventoryTest')
+data.setCell(11, 3, 26);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyBikeLightProductIsDisplayed')
+data.setCell(12, 2, 'com.SwagLabsUITest.TestCases.Tc2_InventoryTest')
+data.setCell(12, 3, 25);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'VerifyTitle')
+data.setCell(13, 2, 'com.SwagLabsUITest.TestCases.Tc1_LoginTest')
+data.setCell(13, 3, 21);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -359,9 +470,9 @@ return data;
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.SwagLabsUITest.TestCases.Tc2_InventoryTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">afterSuite</span>
-                <br/>
                 <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -379,138 +490,200 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
-                <span class="method-name">setup</span>
-                <span class="method-start">1731 ms</span>
+                <span class="method-name">setupInventory</span>
+                <span class="method-start">4903 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
-                <span class="method-name">setupInventory</span>
-                <span class="method-start">1733 ms</span>
+                <span class="method-name">setup</span>
+                <span class="method-start">4903 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">openApp</span>
-                <span class="method-start">1754 ms</span>
+                <span class="method-start">4936 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyUrl</span>
-                <span class="method-start">1945 ms</span>
+                <span class="method-start">5071 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">captureOnFail([TestResult name=verifyUrl status=SUCCESS method=Tc1_LoginTest.verifyUrl()[pri:1, instance:com.SwagL...)</span>
-                <span class="method-start">2186 ms</span>
+                <span class="method-start">5368 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">openApp</span>
-                <span class="method-start">2188 ms</span>
+                <span class="method-start">5369 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyTitle</span>
-                <span class="method-start">2203 ms</span>
+                <span class="method-start">5385 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">captureOnFail([TestResult name=VerifyTitle status=SUCCESS method=Tc1_LoginTest.VerifyTitle()[pri:2, instance:com.S...)</span>
-                <span class="method-start">2338 ms</span>
+                <span class="method-start">5531 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">openApp</span>
-                <span class="method-start">2351 ms</span>
+                <span class="method-start">5540 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyLogin(anand, secret_sauce, invalid)</span>
-                <span class="method-start">2355 ms</span>
+                <span class="method-start">5545 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">captureOnFail([TestResult name=VerifyLogin status=SUCCESS method=Tc1_LoginTest.VerifyLogin(java.lang.String,java.l...)</span>
-                <span class="method-start">2849 ms</span>
+                <span class="method-start">6047 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">openApp</span>
-                <span class="method-start">2854 ms</span>
+                <span class="method-start">6052 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyLogin(standard_user, wrong, invalid)</span>
-                <span class="method-start">2858 ms</span>
+                <span class="method-start">6057 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">captureOnFail([TestResult name=VerifyLogin status=SUCCESS method=Tc1_LoginTest.VerifyLogin(java.lang.String,java.l...)</span>
-                <span class="method-start">3328 ms</span>
+                <span class="method-start">6498 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">openApp</span>
-                <span class="method-start">3332 ms</span>
+                <span class="method-start">6502 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyLogin(, , invalid)</span>
-                <span class="method-start">3336 ms</span>
+                <span class="method-start">6505 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">captureOnFail([TestResult name=VerifyLogin status=SUCCESS method=Tc1_LoginTest.VerifyLogin(java.lang.String,java.l...)</span>
-                <span class="method-start">3762 ms</span>
+                <span class="method-start">6905 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">openApp</span>
-                <span class="method-start">3766 ms</span>
+                <span class="method-start">6909 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyLogin(standard_user, secret_sauce, valid)</span>
-                <span class="method-start">3770 ms</span>
+                <span class="method-start">6911 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">captureOnFail([TestResult name=VerifyLogin status=SUCCESS method=Tc1_LoginTest.VerifyLogin(java.lang.String,java.l...)</span>
-                <span class="method-start">4357 ms</span>
+                <span class="method-start">7501 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.SwagLabsUITest.TestCases.Tc2_InventoryTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setupInventory</span>
-                <span class="method-start">4357 ms</span>
+                <span class="method-name">setup</span>
+                <span class="method-start">7502 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">openApp</span>
-                <span class="method-start">4357 ms</span>
+                <span class="method-start">7502 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="configuration-class before">
-                <span class="method-name">setup</span>
-                <span class="method-start">4357 ms</span>
-              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyProductCount</span>
-                <span class="method-start">4372 ms</span>
+                <span class="method-start">7502 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setupInventory</span>
+                <span class="method-start">7502 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="configuration-method after">
                 <span class="method-name">captureOnFail([TestResult name=verifyProductCount status=SUCCESS method=Tc2_InventoryTest.verifyProductCount()[pri...)</span>
-                <span class="method-start">4566 ms</span>
+                <span class="method-start">7710 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">openApp</span>
-                <span class="method-start">4570 ms</span>
+                <span class="method-start">7713 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyBikeLightProductName</span>
-                <span class="method-start">4572 ms</span>
+                <span class="method-start">7716 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">captureOnFail([TestResult name=verifyBikeLightProductName status=SUCCESS method=Tc2_InventoryTest.verifyBikeLightP...)</span>
-                <span class="method-start">4780 ms</span>
+                <span class="method-start">7913 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">openApp</span>
-                <span class="method-start">4785 ms</span>
+                <span class="method-start">7917 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyAllProductNames</span>
-                <span class="method-start">4789 ms</span>
+                <span class="method-start">7919 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">captureOnFail([TestResult name=verifyAllProductNames status=SUCCESS method=Tc2_InventoryTest.verifyAllProductNames...)</span>
-                <span class="method-start">5055 ms</span>
+                <span class="method-start">8180 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openApp</span>
+                <span class="method-start">8185 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyAddToCartButtonTextChanges</span>
+                <span class="method-start">8190 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureOnFail([TestResult name=verifyAddToCartButtonTextChanges status=FAILURE method=Tc2_InventoryTest.verifyAddT...)</span>
+                <span class="method-start">23469 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openApp</span>
+                <span class="method-start">23725 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBikeLightProductIsDisplayed</span>
+                <span class="method-start">23726 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureOnFail([TestResult name=verifyBikeLightProductIsDisplayed status=SUCCESS method=Tc2_InventoryTest.verifyBik...)</span>
+                <span class="method-start">23975 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openApp</span>
+                <span class="method-start">23977 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAllProductsAreDisplayed</span>
+                <span class="method-start">23979 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureOnFail([TestResult name=verifyAllProductsAreDisplayed status=SUCCESS method=Tc2_InventoryTest.verifyAllProd...)</span>
+                <span class="method-start">24289 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openApp</span>
+                <span class="method-start">24290 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFirstProductNameIsNotEmpty</span>
+                <span class="method-start">24294 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureOnFail([TestResult name=verifyFirstProductNameIsNotEmpty status=SUCCESS method=Tc2_InventoryTest.verifyFirs...)</span>
+                <span class="method-start">24754 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openApp</span>
+                <span class="method-start">24756 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductCountMatchesProductNameList</span>
+                <span class="method-start">24757 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureOnFail([TestResult name=verifyProductCountMatchesProductNameList status=SUCCESS method=Tc2_InventoryTest.ve...)</span>
+                <span class="method-start">24998 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.SwagLabsUITest.TestCases.Tc1_LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">5671 ms</span>
+                <span class="method-start">25278 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
