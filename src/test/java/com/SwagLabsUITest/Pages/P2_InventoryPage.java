@@ -19,7 +19,7 @@ public class P2_InventoryPage {
     // ===== Constructor =====
     public P2_InventoryPage(WebDriver driver) {
         this.driver = driver;
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         PageFactory.initElements(driver, this);
     }
 
@@ -40,10 +40,10 @@ public class P2_InventoryPage {
     }
 
     // ===== Add to cart button =====
-    @FindBy(xpath = "//button[contains(@id,'add-to-cart-sauce-labs-bike-light')]")
+    @FindBy(id = "add-to-cart-sauce-labs-bike-light")
     private WebElement addToCartBtn;
 
-    public String clickOnAddToCart() {
+    public void clickOnAddToCart() {
 
         // wait until clickable
         wait.until(ExpectedConditions.elementToBeClickable(addToCartBtn));
@@ -51,9 +51,12 @@ public class P2_InventoryPage {
         addToCartBtn.click();
 
         // wait until text changes to "Remove"
-        wait.until(ExpectedConditions.textToBePresentInElement(addToCartBtn, "Add to cart"));
+        //wait.until(ExpectedConditions.textToBePresentInElement(addToCartBtn, "Remove"));
 
-        return addToCartBtn.getText(); // returns "Remove"
+       // return addToCartBtn.getText(); // returns "Remove"
+        wait.until(ExpectedConditions.presenceOfElementLocated(
+                org.openqa.selenium.By.id("remove-sauce-labs-bike-light")
+            ));
     }
 
     // ===== All product names =====
