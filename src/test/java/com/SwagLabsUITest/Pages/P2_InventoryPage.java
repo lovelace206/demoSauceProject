@@ -40,9 +40,9 @@ public class P2_InventoryPage {
     }
 
     // ===== Add to cart button =====
-    @FindBy(id = "add-to-cart-sauce-labs-bike-light")
+    @FindBy(id="add-to-cart")
     private WebElement addToCartBtn;
-
+//Actions
   public void clickOnAddToCart() {
 
        // wait until clickable
